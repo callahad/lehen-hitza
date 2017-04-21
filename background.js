@@ -13,7 +13,7 @@ function parse(value) {
 chrome.webRequest.onBeforeSendHeaders.addListener(
   details => {
     for (let header of details.requestHeaders) {
-      if (header.name == 'Accept-Language') {
+      if (header.name.toLowerCase() == 'accept-language') {
         if (!parse(header.value).includes('eu')) {
           header.value = 'eu,' + header.value;
         }
