@@ -1,8 +1,8 @@
 {
-  "description": "Modifies the browser's Accept-Language header to request content in the Basque language, if available.",
+  "description": "Webgune bat bisitatzean zure nabigatzaileak euskarazko bertsioa lehenetsiko dizu. Modifies the browser's Accept-Language header to request content in the Basque language, if available.",
   "manifest_version": 2,
-  "name": "Prefer Basque",
-  "version": "1.0",
+  "name": "Lehen hitza euskaraz",
+  "version": "1.1",
   "homepage_url": "https://github.com/callahad/prefer-basque",
   "icons": {
     "16": "icons/16.png",
@@ -28,7 +28,7 @@
       "48": "icons/48.png",
       "128": "icons/128.png"
     },
-    "default_title": "Prefer Basque Language",
+    "default_title": "Lehen hitza euskaraz",
     "default_popup": "popup.html"
   }
 }
