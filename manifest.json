@@ -1,5 +1,5 @@
 {
-  "description": "Webgune bat bisitatzean zure nabigatzaileak euskarazko bertsioa lehenetsiko dizu. Modifies the browser's Accept-Language header to request content in the Basque language, if available.",
+  "description": "Webgune bat bisitatzean zure nabigatzaileak euskarazko bertsioa lehenetsiko dizu. (Modifies the browser's Accept-Language header to request content in the Basque language, if available.)",
   "manifest_version": 2,
   "name": "Lehen hitza euskaraz",
   "version": "1.1",
